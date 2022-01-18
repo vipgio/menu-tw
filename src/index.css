@@ -11,5 +11,5 @@
 }
 
 .category-title {
-	@apply z-10 py-2 mx-5 bg-gray-300 text-center sticky top-[73px] rounded shadow-md rnd:top-[55px];
+	@apply z-10 py-2 mx-5 bg-gray-300 text-center sticky rounded shadow-md top-[55px];
 }
