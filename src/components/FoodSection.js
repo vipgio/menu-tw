@@ -7,7 +7,7 @@ const FoodSection = ({ name }) => {
 	return (
 		<div>
 			<div className='category-title'>{name.charAt(0).toUpperCase() + name.slice(1)}</div>
-			<div className='mt-8 grid md:grid-cols-3 gap-10 py-8 px-16'>
+			<div className='mt-8 grid md:grid-cols-3 sm:grid-cols-2 gap-10 py-8 px-16'>
 				{foods
 					.filter((item) => item.fields.category === name)
 					.map((food, index) => (
